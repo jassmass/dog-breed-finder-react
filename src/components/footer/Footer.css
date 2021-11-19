@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+  }
+
+  .footer-left{
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-right {
+    color: rgb(0, 60, 52);
+  }
+  
+  .footer a{
+    margin-right: 48px;
+    color: #509B5C;
+  }
+
+  .footer p{
+    color: #509B5C;
+  }

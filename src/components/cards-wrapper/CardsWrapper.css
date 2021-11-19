@@ -1,0 +1,7 @@
+.cards-wrapper{
+    background-color: #f0f6f5;
+    display: flex;
+    flex-direction: column;
+    padding-top: 96px;
+    padding-bottom: 72px;
+  }

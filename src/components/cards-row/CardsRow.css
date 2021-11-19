@@ -1,0 +1,8 @@
+.content-cards-row {
+  justify-content: space-between;
+  display: flex;
+  max-height: 400px;
+  width: 1024px;
+  align-self: center;
+  margin-bottom: 24px;
+}

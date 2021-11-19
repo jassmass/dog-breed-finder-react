@@ -1,0 +1,67 @@
+
+.content-card {
+    display: flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    width: 325px;
+    border: 1px solid #78999480;
+    border-radius: 24px;
+    padding-bottom:24px;
+    padding-left:24px;
+    padding-right:24px;
+    background-color: white;
+  }
+  
+  
+  .content-card:hover{
+    background-color: #003c34;
+    transition:  ease-in;
+  } 
+  
+  .content-card:hover .content-card-name{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+  }
+  
+  .content-card:hover .breed-caracterics {
+    display: block;
+    background-color: #003c34;
+    color: #ffffff;
+    overflow-wrap: break-word;
+    line-height: 1.33;
+    padding-left: 24px;
+    margin: 0px;
+  }
+  
+  .breed-caracterics {
+    display: none;
+  }
+  
+  .breed-caracterics li {
+    word-break: break-all;
+  }
+  
+  .content-card:hover .card-image{
+    display: none;
+    /* opacity: 0; */
+  }
+  
+  .card-image {
+    display: block;
+    /* max-height: 200px; */
+    border-radius: 24px;
+    /* width: inherit; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 183px;
+  }
+  
+  .content-card-name{
+    font-size: 24px;
+      font-weight: 700;
+      font-family: Roboto, sans-serif;
+      color: #003c34;
+  }
+  

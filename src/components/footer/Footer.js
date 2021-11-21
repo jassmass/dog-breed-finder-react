@@ -6,12 +6,12 @@ class Footer extends React.Component {
         return(
             <div className="footer">
             <div className="footer-left">
-                <a href="index.html" className="logo">Dog BF</a>
-                <a href="index.html">Home</a>
+                <a href="/" className="logo">Dog BF</a>
+                <a href="/">Home</a>
                 <a href="breed-finder.html">Finder</a>
             </div>
            
-            <p className="footer-right">© 2021 Created by Jasminka Masal</p>
+            <a href="https://www.jasminkamasal.com/" target="_blank" className="footer-right">© 2021 Created by Jasminka Masal</a>
         </div>
         )
     }

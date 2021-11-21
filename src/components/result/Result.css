@@ -1,0 +1,24 @@
+.result {
+    width: 400px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #78999480; ;
+    font-weight: 500;
+    color: #003c34;
+    font-size: 16px;
+  }
+  
+  .last-result {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-weight: 500;
+    color: #003c34;
+    font-size: 16px;
+  }
+  .probability {
+    align-items: center;
+  }
+  

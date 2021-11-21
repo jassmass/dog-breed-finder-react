@@ -12,7 +12,7 @@ class CardRow2 extends React.Component {
                     lifeExpectancy={"12 – 20 years"}
                     colors={" Black, White, Fawn, Chocolate, Cream"}
                     origin={"Mexico"}
-                    height={"15–25 cm<"}
+                    height={"15–25 cm"}
                     temperament={"Temperament:  Aggressive, Devoted, Lively, Alert"}
                     image={"images/chihuahua.jpeg"}
                 />
@@ -22,7 +22,7 @@ class CardRow2 extends React.Component {
                     lifeExpectancy={"12 – 15 years"}
                     colors={"Black, Blue Roan, Orange Roa"}
                     origin={"United Kingdom"}
-                    height={"38–43 cm<"}
+                    height={"38–43 cm"}
                     temperament={" emperament: Playful, Affectionate, Friendly, Faithful"}
                     image={"images/cocker-spaniel.jpeg"}
                 />
